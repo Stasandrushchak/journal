@@ -1,14 +1,13 @@
 .product-card {
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 16px;
   max-width: 300px;
   text-align: center;
 }
 
 .main-image {
-  width: 100%;
-  height: auto;
+  width: 200px;
+  height: 150px;
   border-radius: 8px;
   margin-bottom: 10px;
   cursor: pointer;
@@ -47,6 +46,7 @@
 /* Стилі модального вікна */
 .modal-overlay {
   position: fixed;
+  padding: 50px;
   top: 0;
   left: 0;
   width: 100vw;
@@ -59,27 +59,6 @@
 }
 
 .modal-content {
-  position: relative;
-  max-width: 90%;
-  max-height: 90%;
-  overflow: hidden;
-}
-
-.modal-image {
-  width: 90vw;
-  height: 90vh;
-  height: auto;
-  border-radius: 8px;
-}
-
-.close-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  background: #ff5f5f;
-  border: none;
-  color: white;
-  padding: 8px;
-  border-radius: 50%;
-  cursor: pointer;
+  margin: 0 auto;
 }

@@ -11,7 +11,6 @@ interface ImageCardProps {
 export const ImageCard: React.FC<ImageCardProps> = ({
   mainImage,
   thumbnails,
-  description,
 }) => {
   const [isModalOpen, setModalOpen] = useState(false);
   const [isThumbnail, setIsThumbnail] = useState(false);
@@ -31,7 +30,7 @@ export const ImageCard: React.FC<ImageCardProps> = ({
   };
 
   return (
-    <div className="card">
+    <div className="product-card">
       <img
         src={mainImage}
         alt="Main"
@@ -49,7 +48,6 @@ export const ImageCard: React.FC<ImageCardProps> = ({
           />
         ))}
       </div>
-      <p className="description">{description}</p>
 
       {isMainImage && isModalOpen && (
         <Modal image={mainImage} onClose={() => setModalOpen(false)} />
