@@ -1,0 +1,102 @@
+[
+    {
+      "mainImage": "./images/1.jpg",
+      "thumbnails": ["./images/1-1.jpg"],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/2.jpg",
+      "thumbnails": ["./images/2-1.jpg", "./images/2-2.jpg","./images/2-3.jpg"],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/3.jpg",
+      "thumbnails": ["./images/3-1.jpg", "./images/3-2.jpg","./images/3-3.jpg"],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/4.jpg",
+      "thumbnails": ["./images/4-1.jpg", "./images/4-2.jpg"],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/5.jpg",
+      "thumbnails": ["./images/5-1.jpg"],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/6.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/7.jpg",
+      "thumbnails": ["./images/7-1.jpg"],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/8.jpg",
+      "thumbnails": ["./images/8-1.jpg"],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/9.jpg",
+      "thumbnails": ["./images/9-1.jpg"],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/10.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/11.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/12.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/13.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/14.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/15.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/16.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/17.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/18.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/19.jpg",
+      "thumbnails": [],
+      "description": "-"
+    },
+    {
+      "mainImage": "./images/20.jpg",
+      "thumbnails": [],
+      "description": "-"
+    }
+  ]
