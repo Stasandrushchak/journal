@@ -1,0 +1,19 @@
+.start-text {
+    font-family: "Doto", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+}
+
+.greetings {
+    margin-top: 20px;
+    font-size: 32px;
+    color: black;
+}
+
+.advice {
+    margin-top: 500px;
+    margin-right: 20px;
+    align-self: flex-end;
+    font-size: 32px;
+    color: white;
+}

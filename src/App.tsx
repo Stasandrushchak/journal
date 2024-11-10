@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { ImageCard } from './components/ProductCard/ImageCard';
 import { CardData } from './types/cardData';
+import { StartPage } from './components/StartPage/StartPage';
+import './App.css'
 
 const App = () => {
   const [cards, setCards] = useState<CardData[]>([]);
@@ -18,16 +20,19 @@ const App = () => {
   loadCards();
 
   return (
+    <body className='body'>
+    <StartPage/>
     <div className="card-container">
       {cards.map((card, index) => (
         <ImageCard
           key={index}
           mainImage={card.mainImage}
-          thumbnails={card.thumbnails}
+          thumbnails={card.thumbnails}   
           description={card.description}
         />
       ))}
     </div>
+    </body>
   );
 };
 
