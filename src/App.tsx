@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { ImageCard } from './components/ProductCard/ImageCard';
-import { getCards } from './api';
 import { CardData } from './types/cardData';
 
 const App = () => {
@@ -8,7 +7,8 @@ const App = () => {
 
   const loadCards = async () => {
     try {
-      const data = await getCards();
+      const response = await fetch('/API/cardsData.json');
+      const data: CardData[] = await response.json();
       setCards(data);
     } catch (error) {
       throw new Error(`Error has occurred: ${error}`);
