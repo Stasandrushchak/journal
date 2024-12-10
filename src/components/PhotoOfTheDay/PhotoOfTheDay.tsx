@@ -1,5 +1,5 @@
 import React from 'react';
-import '../PhotoOfTheDay/PhotoOfTheDay.css';
+import '../PhotoOfTheDay/PhotoOfTheDay.scss';
 
 export const PhotoOfTheDay: React.FC = () => (
   <div className="photo__container" id="photo">

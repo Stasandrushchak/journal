@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Modal } from '../Modal/Modal';
-import './ImageCard.css';
+import './ImageCard.scss';
 
 interface ImageCardProps {
   mainImage: string;

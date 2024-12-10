@@ -1,0 +1,31 @@
+.icon__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon__container--archive{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.archive__title {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-top: 10vh;
+  font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 10px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  padding-inline: 10vh;
+}

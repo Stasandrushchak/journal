@@ -1,5 +1,5 @@
 import React from 'react';
-import '../SongOfTheDay/SongOfTheDay.css';
+import '../SongOfTheDay/SongOfTheDay.scss';
 
 export const SongOfTheDay: React.FC = () => (
   <div className="song__container" id="song">

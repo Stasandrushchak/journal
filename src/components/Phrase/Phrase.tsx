@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Phrase/Phrase.css';
+import '../Phrase/Phrase.scss';
 
 export const Phrase: React.FC = () => (
   <div className="phrase__container" id="phrase">
