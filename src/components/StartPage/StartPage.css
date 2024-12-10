@@ -1,19 +1,46 @@
 .start-text {
-    font-family: "Doto", Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: "Roboto Mono", monospace, Arial, Helvetica, sans-serif;
     display: flex;
+    flex-direction: column;
 }
 
 .greetings {
+    letter-spacing: 10px;
+    font-weight: 500;
     margin-top: 20px;
-    font-size: 32px;
+    font-size: 36px;
     color: black;
+    text-align: center;
 }
 
 .advice {
-    margin-top: 500px;
-    margin-right: 20px;
+    margin-top: 30vh;
+    margin-right: 200px;
     align-self: flex-end;
     font-size: 32px;
+    font-weight: 400;
     color: white;
+}
+
+.nav-container {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    padding-inline: 10vh;
+}
+
+.icon__link {
+    text-decoration: none;
+}
+
+.icon__title {
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }

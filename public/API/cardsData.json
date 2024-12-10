@@ -34,16 +34,7 @@
       "thumbnails": ["./images/7-1.jpg"],
       "description": "-"
     },
-    {
-      "mainImage": "./images/8.jpg",
-      "thumbnails": ["./images/8-1.jpg"],
-      "description": "-"
-    },
-    {
-      "mainImage": "./images/9.jpg",
-      "thumbnails": ["./images/9-1.jpg"],
-      "description": "-"
-    },
+
     {
       "mainImage": "./images/10.jpg",
       "thumbnails": [],
