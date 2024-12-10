@@ -4,7 +4,7 @@
     height: 140vh;
     background-image: url(/images/photo-10_12_24.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     overflow: hidden;
     width: 98.75vw;
