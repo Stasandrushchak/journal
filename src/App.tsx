@@ -6,6 +6,8 @@ import './App.css';
 import { SongOfTheDay } from './components/SongOfTheDay/SongOfTheDay';
 import { PhotoOfTheDay } from './components/PhotoOfTheDay/PhotoOfTheDay';
 import { Phrase } from './components/Phrase/Phrase';
+import { Joke } from './components/Joke/Joke';
+import { Footer } from './components/Footer/Footer';
 
 const App = () => {
   // const [cards, setCards] = useState<CardData[]>([]);
@@ -27,7 +29,9 @@ const App = () => {
       <StartPage />
       <PhotoOfTheDay />
       <SongOfTheDay />
+      <Joke />
       <Phrase />
+      <Footer />
 
       {/* <div className="card-container">
         {cards.map((card, index) => (

@@ -1,4 +1,5 @@
 .photo__container {
+    margin-top: 6vh;
     width: 100vw;
     height: 140vh;
     background-image: url(/images/photo-10_12_24.jpg);
@@ -6,11 +7,11 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    width: 99vw;
+    width: 98.75vw;
 }
 
 .photo__title {
-    margin-top: 6.5vh;
+    margin-top: 8vh;
     font-family: "Roboto Mono", monospace, Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 24px;

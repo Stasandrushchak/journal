@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 14vh;
 }
 
 .phrase__title {
@@ -25,5 +26,5 @@
 }
 
 .phrase__pic {
-    width: 99vw;
+    width: 98.75vw;
 }
