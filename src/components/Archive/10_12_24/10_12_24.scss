@@ -22,3 +22,16 @@
     letter-spacing: 10px;
     text-align: center;
 }
+
+.photo__container-10_12_24 {
+    position: relative;
+    margin-top: 24vh;
+    width: 100vw;
+    height: 140vh;
+    background-image: url(/images/10_12_24/photo-10_12_24.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 98.75vw;
+}

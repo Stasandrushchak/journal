@@ -30,7 +30,7 @@ export const Archive10_12_24: React.FC = () => (
         allowFullScreen
       ></iframe>
     </div>
-    <div className="photo__container" id="photo">
+    <div className="photo__container-10_12_24" id="photo">
       <h2 className="photo__title">"Photo of the day"</h2>
     </div>
     <h3 className="phrase__text">

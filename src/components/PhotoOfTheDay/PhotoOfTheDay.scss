@@ -1,8 +1,9 @@
 .photo__container {
-    margin-top: 1vh;
+    position: relative;
+    margin-top: -2vh;
     width: 100vw;
     height: 140vh;
-    background-image: url(/images/photo-10_12_24.jpg);
+    background-image: url(/images/20_12_24/photo-20_11_24.JPG);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -11,6 +12,7 @@
 }
 
 .photo__title {
+    text-align: center;
     margin-top: 15vh;
     font-family: "Roboto Mono", monospace, Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -18,4 +20,11 @@
     color: black;
     text-align: center;
     letter-spacing: 10px;
+}
+
+.photo__subtitle {
+    font-family: "Roboto Mono", monospace, Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
 }
