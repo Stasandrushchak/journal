@@ -1,14 +1,14 @@
 .photo__container {
     position: relative;
-    margin-top: -2vh;
+    margin-top: 2vh;
     width: 100vw;
     height: 140vh;
-    background-image: url(/images/20_12_24/photo-20_11_24.JPG);
+    background-image: url(/images/31_12_24/winter-forest.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     overflow: hidden;
-    width: 98.75vw;
+    width: 100vw;
 }
 
 .photo__title {

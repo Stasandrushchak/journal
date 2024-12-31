@@ -12,6 +12,7 @@ import { Footer } from './components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import { Archive } from './components/Archive/Archive';
 import { Archive10_12_24 } from './components/Archive/10_12_24/Archive10_12_24';
+import { Archive20_12_24 } from './components/Archive/20_12_24/20_12-24';
 
 const App: React.FC = () => {
   // const [cards, setCards] = useState<CardData[]>([]);
@@ -46,6 +47,7 @@ const App: React.FC = () => {
         />
         <Route path="/archive" element={<Archive />} />
         <Route path="/archive/archive10_12_24" element={<Archive10_12_24 />} />
+        <Route path="/archive/archive20_12_24" element={<Archive20_12_24 />} />
       </Routes>
       {/* <div className="card-container">
         {cards.map((card, index) => (

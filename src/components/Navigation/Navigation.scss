@@ -1,0 +1,49 @@
+$dropdown-menu-min-width: 100px;
+
+.nav-icon {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    position: fixed;
+    --bulma-navbar-background-color: transparent;
+}
+
+.navbar-item__text--title {
+    font-family: "Roboto Mono", monospace, Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+
+.nav__image-icon--photo {
+    width: 64px;
+    height: 64px;
+    background-image: url(/images/icons/photo.gif);
+    background-size: cover;
+}
+.nav__image-icon--song {
+    width: 64px;
+    height: 64px;
+    background-image: url(/images/icons/song.gif);
+    background-size: cover;
+}
+.nav__image-icon--joke {
+    width: 64px;
+    height: 64px;
+    background-image: url(/images/icons/joke1.gif);
+    background-size: cover;
+}
+.nav__image-icon--phrase {
+    width: 64px;
+    height: 64px;
+    background-image: url(/images/icons/phrase.gif);
+    background-size: cover;
+}
+.nav__image-icon--archive {
+    width: 64px;
+    height: 64px;
+    background-image: url(/images/icons/archive.gif);
+    background-size: cover;
+}

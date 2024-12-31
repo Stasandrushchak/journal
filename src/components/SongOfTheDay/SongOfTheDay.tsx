@@ -7,7 +7,7 @@ export const SongOfTheDay: React.FC = () => (
     <iframe
       width="560"
       height="315"
-      src="https://www.youtube.com/embed/jLmZMal27AM?si=r_PchGlcI212TP4I"
+      src="https://www.youtube.com/embed/3Uo0JAUWijM?si=lfna3VscedAGlx7t"
       title="YouTube video player"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

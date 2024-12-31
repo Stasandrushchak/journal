@@ -12,6 +12,18 @@
   right: 0;
 }
 
+.archive__container {
+  display: flex;
+}
+
+.link {
+  margin: 20px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
 .archive__title {
   text-decoration: none;
   color: black;

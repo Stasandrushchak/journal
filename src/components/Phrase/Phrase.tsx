@@ -6,27 +6,29 @@ export const Phrase: React.FC = () => (
   <div className="phrase__container" id="phrase">
     <h2 className="phrase__title">"words of wisdom"</h2>
     <h3 className="phrase__text">
-    Мечта - мечтой но нада так чтоб за мечтой не чалиться<br/>
-    Судьба - не тёлка на час, но и не начальница<br/>
-    Кто-то получает всё - у кого-то не получается<br/><br/>
-    (с) Никита АрХангел <a href='https://www.youtube.com/watch?v=MIrxKZGBSfc'>АрХангел - Ливни</a>
-    </h3>
+    Так я став цинічним - мені крити це нІчим<br />
+    Це може змусити тебе почуватись пригніченим<br />
+    Я не відчував відчаю навіть коли покарний був і духовно понівечений<br />
+    <br />
+    (с) <a className='phrase__text' href="https://www.youtube.com/watch?v=vYB18WngTXY">Микита АрХангел - Південь</a>
+      </h3>
   </div>
   <div className="phrase__container" id="phrase">
     <h2 className="phrase__title">"Grandma talks..."</h2>
     <h3 className="phrase__text">
-      сирі дрова густий дим
+      Одна другій не вірила -
       <br />
-      погуляла б нема з ким <br />
+      взяла палку й переміряла
+      <br />
       <br />
       (с) Моя Бабуля 1941 р.н.
     </h3>
-    <h3 className="phrase__text">
+    {/* <h3 className="phrase__text">
       Бажаю щоб кожному з нас було з ким
-    </h3>
+    </h3> */}
     <img
       className="phrase__pic"
-      src="/images/20_12_24/hands.png"
+      src="/images/31_12_24/2-ukr-girls.jpg"
       alt="fireplace"
     />
   </div>

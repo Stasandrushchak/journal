@@ -11,14 +11,32 @@ import { Link } from 'react-router-dom';
 export const Archive: React.FC = () => (
   <div className="icon__wrapper">
     <div className="icon__container--archive" id="archive">
-      <Link className="icon__link" to="/">
-        <img className="icon" src="/images/icons/phrase.png" alt="photo" />
+      <Link className="link" to="/">
+        <img
+          className="image is-64x64"
+          src="/images/icons/phrase.png"
+          alt="photo"
+        />
         <h3 className="icon__title">Home</h3>
       </Link>
     </div>
-    <Link className="icon__link" to="archive10_12_24">
-      <img className="icon" src="/images/icons/phrase.png" alt="photo" />
-      <h3 className="icon__title">10/12/24</h3>
-    </Link>
+    <div className="archive__container">
+      <Link className="link" to="archive10_12_24">
+        <img
+          className="image is-64x64"
+          src="/images/icons/phrase.png"
+          alt="photo"
+        />
+        <h3 className="icon__title">10/12/24</h3>
+      </Link>
+      <Link className="link" to="archive20_12_24">
+        <img
+          className="image is-64x64"
+          src="/images/icons/phrase.png"
+          alt="photo"
+        />
+        <h3 className="icon__title">20/12/24</h3>
+      </Link>
+    </div>
   </div>
 );
